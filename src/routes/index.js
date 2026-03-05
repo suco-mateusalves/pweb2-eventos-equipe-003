@@ -1,5 +1,6 @@
 import { Router } from "express";
 import rateLimit from "express-rate-limit";
+import eventosRouter from "./eventos.routes";
 
 const router = Router()
 
@@ -13,6 +14,6 @@ const limiteGeral = rateLimit({
 
 
 // exemplo
-// router.use('/usuarios', limiteGeral, usuariosRouter);
+router.use('/eventos', limiteGeral, eventosRouter);
 
 export default router
