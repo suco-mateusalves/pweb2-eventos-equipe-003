@@ -1,6 +1,6 @@
 import { Router } from "express";
 import rateLimit from "express-rate-limit";
-import eventosRouter from "./eventos.routes";
+import eventosRouter from "./eventos.routes.js";
 
 const router = Router()
 
