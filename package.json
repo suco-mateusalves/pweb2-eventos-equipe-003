@@ -1,0 +1,24 @@
+{
+  "name": "atividade-04-api-eventos-academicos-node",
+  "version": "1.0.0",
+  "description": "atividade em sala",
+  "homepage": "https://github.com/laranjeirajoao/atividade-04-api-eventos-academicos-node#readme",
+  "bugs": {
+    "url": "https://github.com/laranjeirajoao/atividade-04-api-eventos-academicos-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laranjeirajoao/atividade-04-api-eventos-academicos-node.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
